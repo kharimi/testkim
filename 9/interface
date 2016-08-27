@@ -1,0 +1,19 @@
+<?php
+
+interface Audible
+{
+	public function makeSound();
+}
+
+interface Switchable
+{
+	public function turnOn();
+	public function turnOff();
+}
+
+
+//
+$computer = new Computer();
+$cat = new Cat();
+$computer->makeSound();
+$cat->makeSound();

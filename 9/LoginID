@@ -1,0 +1,8 @@
+<meta charset="utf-8">
+<form action="login.php" method="post">
+ID:<input name="id">
+
+<input type="submit">
+</form>
+
+
